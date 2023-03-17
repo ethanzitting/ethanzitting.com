@@ -34,11 +34,13 @@
 {{--            @endif--}}
 
             <header>
-                <div class="contact-me">
-                    Contact Me
-                </div>
-                <p>Github</p>
-                <p>LinkedIn</p>
+                <a href="" class="email-button accent-color subtle-border">
+                    <img src="" alt="">
+                </a>
+                <a href="">Get in touch</a>
+                <a href="">Github</a>
+                <p>/</p>
+                <a href="">LinkedIn</a>
             </header>
 
             <section class="hero">
@@ -59,26 +61,29 @@
             </section>
 
             <section class="services">
-                <div class="card subtle-border accent-color">
-                    <img src="" alt="">
-                    <h3>Front End</h3>
-                    <p>Very comfortable working with modern front end frameworks, using all the latest best practices.</p>
-                </div>
-                <div class="card subtle-border accent-color">
-                    <img src="" alt="">
-                    <h3>Back End</h3>
-                    <p>Very comfortable working with servers, especially the MVC kind. Writing highly maintainable code.</p>
-                </div>
-                <div class="card subtle-border accent-color">
-                    <img src="" alt="">
-                    <h3>Project Management</h3>
-                    <p>With extensive experience in Web Development and Project Management, I can help you plan out your project.</p>
-                </div>
-                <div class="card subtle-border accent-color">
-                    <img src="" alt="">
-                    <h3>Infrastructure</h3>
-                    <p>Let's discuss how to get our application hosted reliably and efficiently.</p>
-                </div>
+                <h2>Devlopers Devlopers Devlopers Devlopers Devlopers </h2>
+                <ul>
+                    <li class="card subtle-border accent-color">
+                        <img src="" alt="">
+                        <h3>Front End</h3>
+                        <p>Very comfortable working with modern front end frameworks, using all the latest best practices.</p>
+                    </li>
+                    <li class="card subtle-border accent-color">
+                        <img src="" alt="">
+                        <h3>Back End</h3>
+                        <p>Very comfortable working with servers, especially the MVC kind. Writing highly maintainable code.</p>
+                    </li>
+                    <li class="card subtle-border accent-color">
+                        <img src="" alt="">
+                        <h3>Project Management</h3>
+                        <p>With extensive experience in Web Development and Project Management, I can help you plan out your project.</p>
+                    </li>
+                    <li class="card subtle-border accent-color">
+                        <img src="" alt="">
+                        <h3>Infrastructure</h3>
+                        <p>Let's discuss how to get our application hosted reliably and efficiently.</p>
+                    </li>
+                </ul>
             </section>
 
             <section class="work-sample">
