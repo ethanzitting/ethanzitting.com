@@ -36,6 +36,11 @@
             <header>
                 <a href="" class="email-button accent-color subtle-border">
                     <img src="" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="3" y="5" width="18" height="14" rx="2" />
+                        <polyline points="3 7 12 13 21 7" />
+                    </svg>
                 </a>
                 <a href="">Get in touch</a>
                 <a href="">Github</a>
@@ -51,7 +56,13 @@
                 <h1>Solving Complex Problems in the Web Ecosystem</h1>
                 <button
                     class="call-to-action subtle-border accent-color"
-                >Latest Work</button>
+                >
+                    Latest Work
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
+                    </svg>
+                </button>
             </section>
 
             <section class="testimonials subtle-border accent-color">
@@ -64,22 +75,49 @@
                 <h2>Devlopers Devlopers Devlopers Devlopers Devlopers </h2>
                 <ul>
                     <li class="card subtle-border accent-color">
-                        <img src="" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-desktop" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="3" y="4" width="18" height="12" rx="1" />
+                            <line x1="7" y1="20" x2="17" y2="20" />
+                            <line x1="9" y1="16" x2="9" y2="20" />
+                            <line x1="15" y1="16" x2="15" y2="20" />
+                        </svg>
                         <h3>Front End</h3>
                         <p>Very comfortable working with modern front end frameworks, using all the latest best practices.</p>
                     </li>
                     <li class="card subtle-border accent-color">
-                        <img src="" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-server" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="3" y="4" width="18" height="8" rx="3" />
+                            <rect x="3" y="12" width="18" height="8" rx="3" />
+                            <line x1="7" y1="8" x2="7" y2="8.01" />
+                            <line x1="7" y1="16" x2="7" y2="16.01" />
+                        </svg>
                         <h3>Back End</h3>
                         <p>Very comfortable working with servers, especially the MVC kind. Writing highly maintainable code.</p>
                     </li>
                     <li class="card subtle-border accent-color">
-                        <img src="" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checkup-list" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+                            <rect x="9" y="3" width="6" height="4" rx="2" />
+                            <path d="M9 14h.01" />
+                            <path d="M9 17h.01" />
+                            <path d="M12 16l1 1l3 -3" />
+                        </svg>
                         <h3>Project Management</h3>
                         <p>With extensive experience in Web Development and Project Management, I can help you plan out your project.</p>
                     </li>
                     <li class="card subtle-border accent-color">
-                        <img src="" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-affiliate" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
+                            <path d="M11.683 12.317l5.759 -5.759" />
+                            <circle cx="5.5" cy="5.5" r="1.5" />
+                            <circle cx="18.5" cy="5.5" r="1.5" />
+                            <circle cx="18.5" cy="18.5" r="1.5" />
+                            <circle cx="8.5" cy="15.5" r="4.5" />
+                        </svg>
                         <h3>Infrastructure</h3>
                         <p>Let's discuss how to get our application hosted reliably and efficiently.</p>
                     </li>
@@ -147,7 +185,12 @@
             <section class="last-call-to-action subtle-border accent-color">
                 <h1>Tell me about your next project</h1>
                 <div class="contact-me">
-                    Contact Me
+                    Get in touch
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="3" y="5" width="18" height="14" rx="2" />
+                        <polyline points="3 7 12 13 21 7" />
+                    </svg>
                 </div>
             </section>
 
