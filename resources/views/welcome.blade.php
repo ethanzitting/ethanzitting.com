@@ -17,20 +17,19 @@
 
 <header>
     <a href="" class="email-button accent-color subtle-border">
-        <img src="" alt="">
         @include('icons.email')
     </a>
     <a href="">Get in touch</a>
-    <a href="">Github</a>
+    @include('components.links.github')
     <p>/</p>
-    <a href="">LinkedIn</a>
+    @include('components.links.linkedin')
 </header>
 
 <main>
     <section class="hero">
         <figure>
             <img src="{{ Vite::asset('resources/images/ethan-headshot.jpg') }}" alt="">
-            <figcaption>Hi, I'm Ethan!</figcaption>
+            <figcaption>Hi, I'm Ethan! 👋</figcaption>
         </figure>
         <h1>Solving Complex Problems in the Web Ecosystem</h1>
         <button
@@ -150,9 +149,9 @@
 
 <footer>
     <p>@2023 All Rights Reserved</p>
-    <p>Github</p>
+    @include('components.links.github')
     <p>/</p>
-    <p>LinkedIn</p>
+    @include('components.links.linkedin')
 </footer>
 
 </body>
