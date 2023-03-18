@@ -72,7 +72,6 @@ body {
 
 header {
     width: 100%;
-    max-width: 1100px;
     margin: 0 auto;
     padding: 10px 0;
     display: flex;
@@ -104,9 +103,15 @@ header {
     border: 1px solid #242424;
 }
 
+main {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 section {
     margin: 0 auto;
-    max-width: 1280px;
+    width: 100%;
     text-align: center;
 
     &.hero {
@@ -150,16 +155,26 @@ section {
     }
 
     &.services {
-        margin: 130px 20px 100px 20px;
+        max-width: 1100px;
+        margin: 130px auto 100px auto;
+
+        h2 {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 42px;
+            margin-bottom: 40px;
+            letter-spacing: 0;
+        }
 
         ul {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr;
             gap: 20px;
 
             .card {
                 padding: 140px 20px 30px 20px;
+                height: 350px;
 
                 img {
                     width: 80px;
