@@ -41,12 +41,12 @@
         </a>
     </section>
 
-    <section class="testimonials subtle-border accent-color">
-        Testimonials, get some testimonials from Seth, Jessica, Paul.
-        Show them in a slideshow, not moving too fast. May eventually
-        axe the slideshow. Maybe a quote from "... Great to Work with ..." --
-        Steven Records
-    </section>
+{{--    <section class="testimonials subtle-border accent-color">--}}
+{{--        Testimonials, get some testimonials from Seth, Jessica, Paul.--}}
+{{--        Show them in a slideshow, not moving too fast. May eventually--}}
+{{--        axe the slideshow. Maybe a quote from "... Great to Work with ..." ----}}
+{{--        Steven Records--}}
+{{--    </section>--}}
 
     <section class="services">
         <h2 class="glossy-text">Services</h2>

@@ -124,6 +124,7 @@ section {
             width: min-content;
             border-radius: 3px;
             font-size: 1.6rem;
+            cursor: pointer;
 
             p {
                 white-space: nowrap;
@@ -143,6 +144,8 @@ section {
     &.services {
         max-width: 1100px;
         margin: 130px auto 100px auto;
+        border-top: 1px solid #242424;
+        padding-top: 100px;
 
         h2 {
             font-size: 32px;
@@ -237,6 +240,7 @@ section {
             width: min-content;
             border-radius: 3px;
             font-size: 1.6rem;
+            cursor: pointer;
 
             p {
                 white-space: nowrap;
