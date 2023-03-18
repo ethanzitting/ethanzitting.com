@@ -139,11 +139,13 @@
     </section>
 
     <section class="last-call-to-action">
-        <h1>Tell me about your next project</h1>
-        <div class="contact-me subtle-border accent-color">
-            Get in touch
+        <h3>Tell me about your next project</h3>
+        <a class="call-to-action subtle-border accent-color">
+            <p>
+                Get in touch
+            </p>
             @include('icons.email')
-        </div>
+        </a>
     </section>
 </main>
 
