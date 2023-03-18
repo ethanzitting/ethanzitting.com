@@ -49,7 +49,7 @@
     </section>
 
     <section class="services">
-        <h2>Devlopers Devlopers Devlopers Devlopers Devlopers </h2>
+        <h2>Services</h2>
         <ul>
             <li class="card subtle-border accent-color">
                 @include('icons.computer')
@@ -82,9 +82,9 @@
         <h2>Recent Work</h2>
 
         <figure class="subtle-border accent-color">
-            <a href="">
-                @include('icons.network')
-            </a>
+            <x-link-external to="https://yaylunch.com">
+                <img src="{{ Vite::asset('resources/images/yaylunch.png') }}" alt="">
+            </x-link-external>
             <figcaption>
                 <h5>Yay Lunch</h5>
                 <ul>
@@ -98,9 +98,9 @@
         </figure>
 
         <figure class="subtle-border accent-color">
-            <a href="">
-                @include('icons.network')
-            </a>
+            <x-link-external to="https://opensgf.org">
+                <img src="{{ Vite::asset('resources/images/open-sgf.png') }}" alt="">
+            </x-link-external>
             <figcaption>
                 <h5>OpenSGF.org</h5>
                 <ul>
@@ -112,26 +112,13 @@
         </figure>
 
         <figure class="subtle-border accent-color">
-            <a href="">
-                @include('icons.network')
-            </a>
+            <x-link-external to="https://csidesigns.com">
+                <img src="{{ Vite::asset('resources/images/csi.png') }}" alt="">
+            </x-link-external>
             <figcaption>
                 <h5>CSI</h5>
                 <ul>
                     <li>Bugfixing</li>
-                    <li>Refining existing features.</li>
-                </ul>
-            </figcaption>
-        </figure>
-
-        <figure class="subtle-border accent-color">
-            <a href="">
-                @include('icons.network')
-            </a>
-            <figcaption>
-                <h5>Motherhood Reclaimed</h5>
-                <ul>
-                    <li>New Development</li>
                     <li>Refining existing features.</li>
                 </ul>
             </figcaption>
