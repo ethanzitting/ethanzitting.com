@@ -89,6 +89,9 @@ section {
 
     &.hero {
         margin: 90px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
          figure {
              img {
@@ -110,8 +113,21 @@ section {
         }
 
         .call-to-action {
-            color: #9A9A9A;
-            padding: 24px 48px 24px 48px;
+            padding: 18px 48px 18px 48px;
+            display: flex;
+            align-items: center;
+            width: min-content;
+            border-radius: 3px;
+            font-size: 1.6rem;
+
+            p {
+                white-space: nowrap;
+            }
+
+            svg {
+                height: 35px;
+                width: 35px;
+            }
         }
     }
 

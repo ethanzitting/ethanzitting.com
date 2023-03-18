@@ -32,12 +32,13 @@
             <figcaption>Hi, I'm Ethan! 👋</figcaption>
         </figure>
         <h1>Solving Complex Problems in the Web Ecosystem</h1>
-        <button
+        <a
+            href="#"
             class="call-to-action subtle-border accent-color"
         >
-            Latest Work
+            <p>Latest Work</p>
             @include('icons.arrow-down')
-        </button>
+        </a>
     </section>
 
     <section class="testimonials subtle-border accent-color">
