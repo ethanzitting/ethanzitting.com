@@ -102,7 +102,7 @@
                 <img src="{{ Vite::asset('resources/images/open-sgf.png') }}" alt="">
             </x-link-external>
             <figcaption>
-                <h5>OpenSGF.org</h5>
+                <h5>Open SGF</h5>
                 <ul>
                     <li>Infrastructure</li>
                     <li>New Development</li>
@@ -116,7 +116,7 @@
                 <img src="{{ Vite::asset('resources/images/csi.png') }}" alt="">
             </x-link-external>
             <figcaption>
-                <h5>CSI</h5>
+                <h5>Central States Industrial</h5>
                 <ul>
                     <li>Bugfixing</li>
                     <li>Refining existing features.</li>
