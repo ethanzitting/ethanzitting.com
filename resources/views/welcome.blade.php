@@ -54,26 +54,24 @@
             <li class="card subtle-border accent-color">
                 @include('icons.computer')
                 <h3 class="glossy-text">Front End</h3>
-                <p>Very comfortable working with modern front end frameworks,
-                    using all the latest best practices.</p>
+                <p>
+                    Passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.
+                </p>
             </li>
             <li class="card subtle-border accent-color">
                 @include('icons.server')
                 <h3 class="glossy-text">Back End</h3>
-                <p>Very comfortable working with servers, especially the MVC
-                    kind. Writing highly maintainable code.</p>
-            </li>
-            <li class="card subtle-border accent-color">
-                @include('icons.clipboard')
-                <h3 class="glossy-text">Project Management</h3>
-                <p>With extensive experience in Web Development and Project
-                    Management, I can help you plan out your project.</p>
+                <p>Keen on building scalable, secure, efficient applications, especially using Laravel.</p>
             </li>
             <li class="card subtle-border accent-color">
                 @include('icons.network')
                 <h3 class="glossy-text">Infrastructure</h3>
-                <p>Let's discuss how to get our application hosted reliably and
-                    efficiently.</p>
+                <p>Well versed at integrating networks of systems and services to keep your stakeholders happy.</p>
+            </li>
+            <li class="card subtle-border accent-color">
+                @include('icons.clipboard')
+                <h3 class="glossy-text">Project Management</h3>
+                <p>Experienced with owning complex projects from beginning to end. I know how to carry a project all the way to the finish line.</p>
             </li>
         </ul>
     </section>
