@@ -6,7 +6,11 @@
 
     <title>Ethan Zitting</title>
 
-    @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+    @vite([
+        'resources/scss/reset.scss',
+        'resources/scss/app.scss',
+        'resources/js/app.js'
+    ])
 </head>
 <body class="antialiased bg-dots-darker">
 
@@ -74,9 +78,11 @@
     </section>
 
     <section class="work-sample">
+        <h2>Recent Work</h2>
+
         <figure class="subtle-border accent-color">
             <a href="">
-                <img src="" alt="">
+                @include('icons.network')
             </a>
             <figcaption>
                 <h5>Yay Lunch</h5>
@@ -92,7 +98,7 @@
 
         <figure class="subtle-border accent-color">
             <a href="">
-                <img src="" alt="">
+                @include('icons.network')
             </a>
             <figcaption>
                 <h5>OpenSGF.org</h5>
@@ -106,7 +112,7 @@
 
         <figure class="subtle-border accent-color">
             <a href="">
-                <img src="" alt="">
+                @include('icons.network')
             </a>
             <figcaption>
                 <h5>CSI</h5>
@@ -119,10 +125,10 @@
 
         <figure class="subtle-border accent-color">
             <a href="">
-                <img src="" alt="">
+                @include('icons.network')
             </a>
             <figcaption>
-                <h5>CSI</h5>
+                <h5>Motherhood Reclaimed</h5>
                 <ul>
                     <li>New Development</li>
                     <li>Refining existing features.</li>
@@ -131,9 +137,9 @@
         </figure>
     </section>
 
-    <section class="last-call-to-action subtle-border accent-color">
+    <section class="last-call-to-action">
         <h1>Tell me about your next project</h1>
-        <div class="contact-me">
+        <div class="contact-me subtle-border accent-color">
             Get in touch
             @include('icons.email')
         </div>
@@ -142,9 +148,9 @@
 
 
 <footer>
-    Footer
-    @2023 All Rights Reserved
+    <p>@2023 All Rights Reserved</p>
     <p>Github</p>
+    <p>/</p>
     <p>LinkedIn</p>
 </footer>
 
