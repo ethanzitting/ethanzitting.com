@@ -31,7 +31,7 @@
             <img src="{{ Vite::asset('resources/images/ethan-headshot.jpg') }}" alt="">
             <figcaption>Hi, I'm Ethan! 👋</figcaption>
         </figure>
-        <h1>Solving Complex Problems in the Web Ecosystem</h1>
+        <h1 class="glossy-text">Solving Complex Problems in the Web Ecosystem</h1>
         <a
             href="#"
             class="call-to-action subtle-border accent-color"
@@ -49,29 +49,29 @@
     </section>
 
     <section class="services">
-        <h2>Services</h2>
+        <h2 class="glossy-text">Services</h2>
         <ul>
             <li class="card subtle-border accent-color">
                 @include('icons.computer')
-                <h3>Front End</h3>
+                <h3 class="glossy-text">Front End</h3>
                 <p>Very comfortable working with modern front end frameworks,
                     using all the latest best practices.</p>
             </li>
             <li class="card subtle-border accent-color">
                 @include('icons.server')
-                <h3>Back End</h3>
+                <h3 class="glossy-text">Back End</h3>
                 <p>Very comfortable working with servers, especially the MVC
                     kind. Writing highly maintainable code.</p>
             </li>
             <li class="card subtle-border accent-color">
                 @include('icons.clipboard')
-                <h3>Project Management</h3>
+                <h3 class="glossy-text">Project Management</h3>
                 <p>With extensive experience in Web Development and Project
                     Management, I can help you plan out your project.</p>
             </li>
             <li class="card subtle-border accent-color">
                 @include('icons.network')
-                <h3>Infrastructure</h3>
+                <h3 class="glossy-text">Infrastructure</h3>
                 <p>Let's discuss how to get our application hosted reliably and
                     efficiently.</p>
             </li>
@@ -79,14 +79,14 @@
     </section>
 
     <section class="work-sample">
-        <h2>Recent Work</h2>
+        <h2 class="glossy-text">Recent Work</h2>
 
         <figure class="subtle-border accent-color">
             <x-link-external to="https://yaylunch.com">
                 <img src="{{ Vite::asset('resources/images/yaylunch.png') }}" alt="">
             </x-link-external>
             <figcaption>
-                <h5>Yay Lunch</h5>
+                <h5 class="glossy-text">Yay Lunch</h5>
                 <ul>
                     <li>Infrastructure</li>
                     <li>Bug Fixes</li>
@@ -102,7 +102,7 @@
                 <img src="{{ Vite::asset('resources/images/open-sgf.png') }}" alt="">
             </x-link-external>
             <figcaption>
-                <h5>Open SGF</h5>
+                <h5 class="glossy-text">Open SGF</h5>
                 <ul>
                     <li>Infrastructure</li>
                     <li>New Development</li>
@@ -116,7 +116,7 @@
                 <img src="{{ Vite::asset('resources/images/csi.png') }}" alt="">
             </x-link-external>
             <figcaption>
-                <h5>Central States Industrial</h5>
+                <h5 class="glossy-text">Central States Industrial</h5>
                 <ul>
                     <li>Bugfixing</li>
                     <li>Refining existing features.</li>
@@ -126,11 +126,9 @@
     </section>
 
     <section class="last-call-to-action">
-        <h3>Tell me about your next project</h3>
+        <h3 class="glossy-text">Tell me about your next project</h3>
         <a class="call-to-action subtle-border accent-color">
-            <p>
-                Get in touch
-            </p>
+            <p>Get in touch</p>
             @include('icons.email')
         </a>
     </section>

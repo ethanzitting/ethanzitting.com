@@ -22,12 +22,17 @@ body {
     font-weight: 400;
 }
 
+.glossy-text {
+    background: linear-gradient(97.13deg, #E9E9E9 0%, #515151 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .background-cover {
     height: 200vh;
     width: 200vh;
     position: fixed;
     z-index: -1000;
-
 
     background-position: center;
     background-repeat: repeat;
@@ -161,15 +166,6 @@ section {
                 align-items: baseline;
                 gap: 20px;
                 text-align: left;
-
-                img {
-                    width: 80px;
-                    height: 80px;
-                    border-radius: 50%;
-                    margin: 0 auto;
-                    margin-bottom: 20px;
-                    background-color: blue;
-                }
             }
         }
     }
