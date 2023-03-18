@@ -16,8 +16,20 @@ html {
 }
 
 body {
-    background-color: #191919;
+    background-color: #161616;
     color: #8A8A8A;
+}
+
+.background-cover {
+    height: 120vh;
+    width: 120vh;
+    position: fixed;
+    z-index: -1000;
+
+
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 160px;
 }
 
 header {
@@ -128,7 +140,7 @@ section {
                 height: 350px;
                 display: flex;
                 flex-direction: column;
-                justify-content: end;
+                justify-content: flex-end;
                 align-items: baseline;
                 gap: 20px;
                 text-align: left;

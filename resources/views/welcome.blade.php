@@ -9,10 +9,11 @@
     @vite([
         'resources/scss/reset.scss',
         'resources/scss/app.scss',
-        'resources/js/app.js'
+        'resources/js/app.js',
     ])
 </head>
 <body class="antialiased bg-dots-darker">
+<div class="background-cover" style="background-image: url('{{ Vite::asset('resources/images/dots-light-grey.svg') }}');"></div>
 
 <header>
     <a href="" class="email-button accent-color subtle-border">
@@ -28,7 +29,7 @@
 <main>
     <section class="hero">
         <figure>
-            <img src="" alt="">
+            <img src="{{ Vite::asset('resources/images/ethan-headshot.jpg') }}" alt="">
             <figcaption>Hi, I'm Ethan!</figcaption>
         </figure>
         <h1>Solving Complex Problems in the Web Ecosystem</h1>
