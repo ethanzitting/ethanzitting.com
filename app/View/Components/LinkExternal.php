@@ -12,6 +12,7 @@ class LinkExternal extends Component
      */
     public function __construct(
         public string $to,
+        public string $class = '',
     ) {}
 
     /**
