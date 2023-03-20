@@ -1,4 +1,4 @@
-<header>
+<header class="header">
     <x-link-external
         to="mailto:ethan@ethanzitting.com"
         class="email-button accent-color subtle-border"
