@@ -1,4 +1,4 @@
-<section class="services">
+<section class="card-set-vertical">
     <h2 class="glossy-text">Services</h2>
     <ul>
         <li class="card subtle-border accent-color">

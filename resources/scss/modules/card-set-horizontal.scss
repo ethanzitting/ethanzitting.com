@@ -1,0 +1,39 @@
+.card-set-horizontal {
+    margin-top: 100px;
+    border-top: 1px solid #242424;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    h2 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 40px;
+        letter-spacing: 0;
+    }
+
+    figure {
+        display: flex;
+        width: 60%;
+        margin: 0 auto 20px auto;
+        height: 200px;
+
+        a {
+            overflow: hidden;
+            max-width: 60%;
+            min-width: 60%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        figcaption {
+            text-align: left;
+            padding: 20px;
+
+            h5 {
+                font-size: 3rem;
+            }
+        }
+    }
+}
