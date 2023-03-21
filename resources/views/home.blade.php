@@ -19,8 +19,57 @@
 
 <main>
     @include('modules.hero')
-    @include('modules.vertical-card-set')
-    @include('modules.horizontal-card-set')
+    @include('modules.card-set-vertical')
+
+    @php
+        $workHistory = [
+            [
+                'title' => 'Yay Lunch',
+                'image' => [
+                    'src' => 'resources/images/yaylunch.png',
+                    'alt' => 'A screenshot of the home page of yaylunch.com',
+                    'link' => 'https://yaylunch.com',
+                ],
+                'basis' => 'Full Time',
+                'responsibilities' => [
+                    'Infrastructure',
+                    'Bug Fixing',
+                    'Performance Improvements',
+                    'New Feature Development',
+                    'Refactoring away existing messes'
+                ]
+            ],
+            [
+                'title' => 'Open SGF',
+                'image' => [
+                    'src' => 'resources/images/open-sgf.png',
+                    'alt' => 'A screenshot of the home page of opensgf.org',
+                    'link' => 'https://opensgf.org',
+                ],
+                'basis' => 'Volunteer',
+                'responsibilities' => [
+                    'Infrastructure',
+                    'New Development',
+                    'Leading Other Devs',
+                ]
+            ],
+            [
+                'title' => 'Central States Industrial',
+                'image' => [
+                    'src' => 'resources/images/csi.png',
+                    'alt' => 'A screenshot of the home page of csidesigns.com',
+                    'link' => 'https://csidesigns.com',
+                ],
+                'basis' => 'Contract',
+                'responsibilities' => [
+                    'Bug Fixing',
+                    'Refining Existing Features',
+                ]
+            ],
+        ]
+    @endphp
+    <x-card-set-horizontal :card-data="$workHistory" title="Work History"/>
+
     @include('modules.call-to-action')
 </main>
 
