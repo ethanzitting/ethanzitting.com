@@ -13,6 +13,7 @@ class CardSetHorizontal extends Component
     public function __construct(
         public string $title,
         public array $cardData,
+        public string $sectionAnchor,
     ) {}
 
     /**

@@ -68,7 +68,11 @@
             ],
         ]
     @endphp
-    <x-card-set-horizontal :card-data="$workHistory" title="Work History"/>
+    <x-card-set-horizontal
+        :card-data="$workHistory"
+        title="Work History"
+        section-anchor="work-history"
+    />
 
     @include('modules.call-to-action')
 </main>

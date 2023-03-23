@@ -1,0 +1,32 @@
+.card-horizontal {
+    display: flex;
+    width: 60%;
+    margin: 0 auto 20px auto;
+    height: 200px;
+
+    @include mq-below('small') {
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+    }
+
+    a {
+        overflow: hidden;
+        max-width: 60%;
+        min-width: 60%;
+
+        @include mq-below('small') {
+            max-width: 100%;
+            min-width: 100%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    figcaption {
+        text-align: left;
+        padding: 20px;
+    }
+}

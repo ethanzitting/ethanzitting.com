@@ -1,4 +1,4 @@
-<figure class="subtle-border accent-color">
+<figure class="card-horizontal subtle-border accent-color">
     <x-link-external to="{{ $image['link'] }}">
         <img src="{{ Vite::asset($image['src']) }}" alt="{{ $image['alt'] }}">
     </x-link-external>

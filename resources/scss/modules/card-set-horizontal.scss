@@ -8,30 +8,4 @@
         margin-bottom: 40px;
         letter-spacing: 0;
     }
-
-    figure {
-        display: flex;
-        width: 60%;
-        margin: 0 auto 20px auto;
-        height: 200px;
-
-        a {
-            overflow: hidden;
-            max-width: 60%;
-            min-width: 60%;
-
-            img {
-                width: 100%;
-            }
-        }
-
-        figcaption {
-            text-align: left;
-            padding: 20px;
-
-            h5 {
-                font-size: 3rem;
-            }
-        }
-    }
 }

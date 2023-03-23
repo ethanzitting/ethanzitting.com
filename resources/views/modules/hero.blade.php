@@ -5,7 +5,7 @@
     </figure>
     <h1 class="glossy-text">Solving Complex Problems in the Web Ecosystem</h1>
     <a
-        href="#"
+        href="#work-history"
         class="call-to-action subtle-border accent-color"
     >
         <p>Latest Work</p>
