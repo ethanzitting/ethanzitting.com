@@ -2,7 +2,7 @@
     max-width: 1100px;
     margin: 130px auto 100px auto;
     border-top: 1px solid #242424;
-    padding-top: 100px;
+    padding: 100px 10% 0 10%;
 
     h2 {
         font-size: 32px;
@@ -16,6 +16,16 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
         gap: 20px;
+
+        @include mq-below('medium') {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        @include mq-below('x-small') {
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-columns: 1fr;
+        }
 
         .card {
             padding: 0 20px 30px 20px;
