@@ -16,10 +16,8 @@ section {
         }
 
         h1 {
-            font-size: 56px;
-            line-height: 68px;
-            letter-spacing: 0px;
-            word-spacing: 0px;
+            letter-spacing: 0;
+            word-spacing: 0;
             margin: 12px auto 50px auto;
             max-width: 40%;
         }
@@ -30,7 +28,6 @@ section {
             align-items: center;
             width: min-content;
             border-radius: 3px;
-            font-size: 1.6rem;
             cursor: pointer;
 
             p {

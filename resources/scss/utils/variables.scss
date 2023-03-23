@@ -1,16 +1,12 @@
 @use 'sass:math';
 
-$base-black: #133654;
-$base-blue:  #0094FF;
-$dark-blue: #005898;
-$light-blue: #E9F5FF;
-$base-red:  #FF6A6B;
-$light-red: #FF6061;
+$grey-10: #161616;
+$grey-8:  #1A1A1A;
+$grey-6: #242424;
+$grey-2: #9A9A9A;
 
 $primary-font: 'Roboto', sans-serif;
 $secondary-font: 'Roboto Slab', serif;
-
-$navigation-desktop-height: 104px;
 
 $z-index: (
     skip-nav: 20,
