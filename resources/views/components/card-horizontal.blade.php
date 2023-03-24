@@ -3,11 +3,13 @@
         <img src="{{ Vite::asset($image['src']) }}" alt="{{ $image['alt'] }}">
     </x-link-external>
     <figcaption>
-        <h5 class="glossy-text">{{ $title }}</h5>
-        <h6>{{ $subtitle }}</h6>
-        <ul>
-            @foreach ($list as $item)
-                <li>{{$item}}</li>
+        <h3 class="glossy-text">{{ $title }}</h3>
+        <p>{{ $description }}</p>
+        <ul class="tool-icons">
+            @foreach ($toolIconSources as $src)
+                <li class="icon">
+                    @include($src)
+                </li>
             @endforeach
         </ul>
     </figcaption>

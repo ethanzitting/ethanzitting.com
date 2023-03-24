@@ -45,13 +45,14 @@
                         'alt' => 'A screenshot of the home page of yaylunch.com',
                         'link' => 'https://yaylunch.com',
                     ],
-                    'basis' => 'Full Time',
-                    'responsibilities' => [
-                        'Infrastructure',
-                        'Bug Fixing',
-                        'Performance Improvements',
-                        'New Feature Development',
-                        'Refactoring away existing messes'
+                    'description' => 'Guiding a team of devs,
+                        performance improvements, new features,
+                        and major rewrites.',
+                    'toolIconSources' => [
+                        'icons.logos.laravel',
+                        'icons.logos.vue',
+                        'icons.logos.mysql',
+                        'icons.logos.docker'
                     ]
                 ],
                 [
@@ -61,11 +62,12 @@
                         'alt' => 'A screenshot of the home page of opensgf.org',
                         'link' => 'https://opensgf.org',
                     ],
-                    'basis' => 'Volunteer',
-                    'responsibilities' => [
-                        'Infrastructure',
-                        'New Development',
-                        'Leading Other Devs',
+                    'description' => 'Guiding a team of devs, planning and
+                    executing new development, setting up infrastructure',
+                    'toolIconSources' => [
+                        'icons.logos.next',
+                        'icons.logos.react',
+                        'icons.logos.docker',
                     ]
                 ],
                 [
@@ -75,10 +77,10 @@
                         'alt' => 'A screenshot of the home page of csidesigns.com',
                         'link' => 'https://csidesigns.com',
                     ],
-                    'basis' => 'Contract',
-                    'responsibilities' => [
-                        'Bug Fixing',
-                        'Refining Existing Features',
+                    'description' => 'Bug fixes and new feature development.',
+                    'toolIconSources' => [
+                        'icons.logos.craft',
+                        'icons.logos.mysql',
                     ]
                 ],
             ]

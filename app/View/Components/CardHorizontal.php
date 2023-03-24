@@ -12,9 +12,9 @@ class CardHorizontal extends Component
      */
     public function __construct(
         public string $title,
-        public string $subtitle,
         public array $image,
-        public array $list,
+        public string $description,
+        public array $toolIconSources
     ) {}
 
     /**

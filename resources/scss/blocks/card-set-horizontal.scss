@@ -1,6 +1,17 @@
 .card-set-horizontal {
     h2 {
-        margin-bottom: 40px;
         letter-spacing: 0;
+        width: min-content;
+        white-space: nowrap;
+        margin: 0 auto 60px auto;
+    }
+
+    .cards {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
     }
 }

@@ -1,7 +1,5 @@
 .card-horizontal {
     display: flex;
-    width: 60%;
-    margin: 0 auto 20px auto;
     height: 200px;
 
     @include mq-below('small') {
@@ -28,5 +26,19 @@
     figcaption {
         text-align: left;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .tool-icons {
+            display: flex;
+            margin-top: auto;
+
+            svg {
+                height: 25px;
+                width: auto;
+                margin-right: 8px;
+            }
+        }
     }
 }

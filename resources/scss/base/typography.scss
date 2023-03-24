@@ -22,7 +22,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5 .h5, h6, .h6 {
 
 h1, .h1 {
     @include responsive-font((
-        min-size: 1.6rem,
+        min-size: 3.6rem,
         max-size: 5.6rem,
         lower-bound: breakpoint('x-tiny'),
         upper-bound: breakpoint('large')
@@ -32,7 +32,7 @@ h1, .h1 {
 
 h2, .h2 {
     @include responsive-font((
-        min-size: 1.5rem,
+        min-size: 2.5rem,
         max-size: 3.2rem,
         lower-bound: breakpoint('x-tiny'),
         upper-bound: breakpoint('large')
