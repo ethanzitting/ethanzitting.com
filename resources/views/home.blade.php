@@ -68,13 +68,14 @@
             ],
         ]
     @endphp
+
     <x-card-set-horizontal
         :card-data="$workHistory"
         title="Work History"
         section-anchor="work-history"
     />
 
-    <x-call-to-action title="Tell me about your next project"/>
+    <x-call-to-action message="Tell me about your next project"/>
 </main>
 
 @include('blocks.footer')
