@@ -12,17 +12,52 @@
     ])
 </head>
 <body class="antialiased bg-dots-darker">
-<div class="background-cover"
-     style="background-image: url('{{ Vite::asset('resources/images/dots-light-grey.svg') }}');"></div>
+<div
+    class="background-cover"
+    style="background-image: url('{{ Vite::asset('resources/images/dots-light-grey.svg') }}');"
+></div>
 
 @include('blocks.header')
 
 <main>
-    @include('blocks.hero')
-    @include('blocks.card-set-vertical')
+    <x-hero
+        imgSrc="resources/images/ethan-headshot.jpg"
+        imgAlt=""
+        imageCaption="Hi, I'm Ethan! 👋"
+        title="Solving Complex Problems in the Web Ecosystem"
+    />
 
     @php
-        $workHistory = [
+        $services = [
+            [
+               'title' => 'Front End',
+               'iconSrc' => 'icons.computer',
+               'details' => 'Building beautiful, pixel-perfect, intuitive user experiences',
+            ],
+            [
+               'title' => 'Back End',
+               'iconSrc' => 'icons.server',
+               'details' => 'Building scalable, secure, efficient applications with Laravel.',
+            ],
+            [
+               'title' => 'Infrastructure',
+               'iconSrc' => 'icons.network',
+               'details' => 'Integrating networks of systems and services to keep your stakeholders happy.',
+            ],
+            [
+               'title' => 'Project Mgmt',
+               'iconSrc' => 'icons.clipboard',
+               'details' => 'Owning complex projects from beginning to end.',
+            ],
+        ];
+    @endphp
+    <x-card-set-vertical
+        title="Services"
+        :cardData="$services"
+    />
+
+    @php
+        $recentWork = [
             [
                 'title' => 'Yay Lunch',
                 'image' => [
@@ -68,10 +103,9 @@
             ],
         ]
     @endphp
-
     <x-card-set-horizontal
-        :card-data="$workHistory"
-        title="Work History"
+        :card-data="$recentWork"
+        title="Recent Work"
         section-anchor="work-history"
     />
 
