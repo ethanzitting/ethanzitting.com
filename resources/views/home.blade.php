@@ -2,7 +2,7 @@
     <main class="home">
         <x-hero
             imgSrc="resources/images/ethan-headshot.jpg"
-            imgAlt=""
+            imgAlt="An image of Ethan Zitting"
             imageCaption="Hi, I'm Ethan! 👋"
             title="Solving Complex Problems in the Web Ecosystem."
         />
@@ -91,6 +91,6 @@
             section-anchor="work-history"
         />
 
-        <x-call-to-action message="Tell me about your next project"/>
+        <x-call-to-action message="Let's talk about bringing you solutions."/>
     </main>
 </x-default-layout>

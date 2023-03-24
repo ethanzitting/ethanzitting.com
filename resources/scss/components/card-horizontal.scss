@@ -1,6 +1,7 @@
 .card-horizontal {
     display: flex;
     height: 200px;
+    margin: 0 auto;
 
     @include mq-below('small') {
         flex-direction: column;

@@ -1,5 +1,5 @@
 <section class="call-to-action">
-    <h3 class="glossy-text">{{ $message }}</h3>
+    <h2 class="h1 glossy-text">{{ $message }}</h2>
 
     <x-link-external
         to="mailto:email@example.com"
