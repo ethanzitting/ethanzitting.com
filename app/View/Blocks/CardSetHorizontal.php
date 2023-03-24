@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Blocks;
 
 use Illuminate\View\Component;
 use Illuminate\View\View;
@@ -21,6 +21,6 @@ class CardSetHorizontal extends Component
      */
     public function render(): View
     {
-        return view('modules.card-set-horizontal');
+        return view('blocks.card-set-horizontal');
     }
 }

@@ -15,11 +15,11 @@
 <div class="background-cover"
      style="background-image: url('{{ Vite::asset('resources/images/dots-light-grey.svg') }}');"></div>
 
-@include('modules.header')
+@include('blocks.header')
 
 <main>
-    @include('modules.hero')
-    @include('modules.card-set-vertical')
+    @include('blocks.hero')
+    @include('blocks.card-set-vertical')
 
     @php
         $workHistory = [
@@ -74,10 +74,10 @@
         section-anchor="work-history"
     />
 
-    @include('modules.call-to-action')
+    <x-call-to-action title="Tell me about your next project"/>
 </main>
 
-@include('modules.footer')
+@include('blocks.footer')
 
 </body>
 </html>
