@@ -15,5 +15,10 @@
         letter-spacing: 0;
         word-spacing: 0;
         max-width: 40%;
+        text-align: center;
+
+        @include mq-below('small') {
+            max-width: 80%;
+        }
     }
 }

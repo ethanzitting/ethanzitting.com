@@ -9,6 +9,10 @@
     gap: 20px;
     text-align: left;
 
+    @include mq-below('small') {
+        height: 250px;
+    }
+
     p {
         height: 28%;
     }
