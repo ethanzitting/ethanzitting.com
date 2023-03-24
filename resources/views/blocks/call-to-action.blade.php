@@ -3,7 +3,7 @@
 
     <x-link-external
         to="mailto:email@example.com"
-        class="foo-call-to-action subtle-border accent-color"
+        class="button subtle-border accent-color"
     >
         <p>Get in touch</p>
         @include('icons.email')

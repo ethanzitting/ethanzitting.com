@@ -1,0 +1,14 @@
+.card-vertical {
+    padding: 0 20px 30px 20px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 20px;
+    text-align: left;
+
+    p {
+        height: 32%;
+    }
+}
