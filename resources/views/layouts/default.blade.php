@@ -12,18 +12,11 @@
     ])
 </head>
 <body class="antialiased bg-dots-darker">
-<div
-    class="background-cover"
-    style="background-image: url('{{ Vite::asset('resources/images/dots-light-grey.svg') }}');"
-></div>
-
+@include('components.background-dots')
 @include('blocks.header')
 
-<main>
-    {{ $slot }}
-</main>
+{{ $slot }}
 
 @include('blocks.footer')
-
 </body>
 </html>

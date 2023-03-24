@@ -1,0 +1,10 @@
+.background-dots {
+    height: 200vh;
+    width: 200vh;
+    position: fixed;
+    z-index: -1000;
+
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 160px;
+}
