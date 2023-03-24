@@ -1,7 +1,9 @@
 .card-set-vertical {
     h2 {
-        margin-bottom: 40px;
         letter-spacing: 0;
+        margin: 0 auto 60px auto;
+        width: min-content;
+        white-space: nowrap;
     }
 
     ul {

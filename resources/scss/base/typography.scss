@@ -33,7 +33,7 @@ h1, .h1 {
 h2, .h2 {
     @include responsive-font((
         min-size: 1.5rem,
-        max-size: 2.2rem,
+        max-size: 3.2rem,
         lower-bound: breakpoint('x-tiny'),
         upper-bound: breakpoint('large')
     ));

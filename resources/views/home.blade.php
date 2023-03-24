@@ -4,7 +4,7 @@
             imgSrc="resources/images/ethan-headshot.jpg"
             imgAlt=""
             imageCaption="Hi, I'm Ethan! 👋"
-            title="Solving Complex Problems in the Web Ecosystem"
+            title="Solving Complex Problems in the Web Ecosystem."
         />
 
         @php
@@ -12,7 +12,7 @@
                 [
                    'title' => 'Front End',
                    'iconSrc' => 'icons.computer',
-                   'details' => 'Building beautiful, pixel-perfect, intuitive user experiences',
+                   'details' => 'Building beautiful, pixel-perfect, intuitive user experiences.',
                 ],
                 [
                    'title' => 'Back End',
@@ -32,7 +32,7 @@
             ];
         @endphp
         <x-card-set-vertical
-            title="Services"
+            title="Core Competencies"
             :cardData="$services"
         />
 
