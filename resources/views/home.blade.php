@@ -1,7 +1,7 @@
 <x-default-layout>
     <main class="home">
         <x-hero
-            imgSrc="resources/images/ethan-headshot.jpg"
+            imgSrc="resources/images/ethan-headshot.webp"
             imgAlt="An image of Ethan Zitting"
             imageCaption="Hi, I'm Ethan! 👋"
             title="Solving Complex Problems in the Web Ecosystem."
@@ -41,7 +41,7 @@
                 [
                     'title' => 'Yay Lunch',
                     'image' => [
-                        'src' => 'resources/images/yaylunch.png',
+                        'src' => 'resources/images/yaylunch.webp',
                         'alt' => 'A screenshot of the home page of yaylunch.com',
                         'link' => 'https://yaylunch.com',
                     ],
@@ -58,7 +58,7 @@
                 [
                     'title' => 'Open SGF',
                     'image' => [
-                        'src' => 'resources/images/open-sgf.png',
+                        'src' => 'resources/images/open-sgf.webp',
                         'alt' => 'A screenshot of the home page of opensgf.org',
                         'link' => 'https://opensgf.org',
                     ],
@@ -73,7 +73,7 @@
                 [
                     'title' => 'Central States Industrial',
                     'image' => [
-                        'src' => 'resources/images/csi.png',
+                        'src' => 'resources/images/csi.webp',
                         'alt' => 'A screenshot of the home page of csidesigns.com',
                         'link' => 'https://csidesigns.com',
                     ],

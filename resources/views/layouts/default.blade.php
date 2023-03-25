@@ -6,6 +6,9 @@
 
     <title>Ethan Zitting</title>
 
+    <link rel="icon" type="image/x-icon" href="{{ Vite::asset('resources/images/ethan-headshot.webp') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ Vite::asset('resources/images/ethan-headshot.webp') }}">
+
     @vite([
         'resources/scss/main.scss',
         'resources/js/app.js',

@@ -4,11 +4,20 @@
     align-items: center;
     gap: 18px;
 
-    img {
+    .img-wrapper {
         width: 120px;
         height: 120px;
         border-radius: 50%;
+        overflow: hidden;
         margin: 0 auto 20px auto;
+
+        img {
+            height: 102%;
+            width: 102%;
+            position: relative;
+            top: -1%;
+            left: -1%;
+        }
     }
 
     figcaption {
