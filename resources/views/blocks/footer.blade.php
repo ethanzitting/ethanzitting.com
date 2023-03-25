@@ -1,5 +1,8 @@
+@php
+$year = '@'.\Illuminate\Support\Carbon::now()->year;
+@endphp
 <footer class="footer">
-    <p>@2023 All Rights Reserved</p>
+    <p>{{ $year }} All Rights Reserved</p>
     @include('components.links.github')
     <p>/</p>
     @include('components.links.linkedin')
