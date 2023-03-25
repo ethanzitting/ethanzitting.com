@@ -4,7 +4,7 @@ html {
 
 body * {
     @include responsive-font((
-        min-size: 1.2rem,
+        min-size: 1.4rem,
         max-size: 1.8rem,
         lower-bound: breakpoint('x-tiny'),
         upper-bound: breakpoint('large')
@@ -42,7 +42,7 @@ h2, .h2 {
 
 h3, .h3 {
     @include responsive-font((
-        min-size: 1.3rem,
+        min-size: 1.5rem,
         max-size: 2rem,
         lower-bound: breakpoint('x-tiny'),
         upper-bound: breakpoint('large')
@@ -82,7 +82,7 @@ h6, .h6 {
 
 p, .p {
     @include responsive-font((
-        min-size: 1.2rem,
+        min-size: 1.4rem,
         max-size: 1.8rem,
         lower-bound: breakpoint('x-tiny'),
         upper-bound: breakpoint('large')

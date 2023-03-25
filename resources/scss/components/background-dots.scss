@@ -1,7 +1,9 @@
 .background-dots {
     height: 200vh;
-    width: 200vh;
+    width: 200vw;
     position: fixed;
+    top: -50vh;
+    left: -50vw;
     z-index: -1000;
 
     background-position: center;
