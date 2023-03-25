@@ -20,7 +20,21 @@
         }
 
         img {
+            position: relative;
             width: 100%;
+            top: 0;
+            left: 0;
+            transition: left, top, width, height;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-in-out;
+        }
+
+        &:hover, &:focus {
+            img {
+                width: 110%;
+                left: -5%;
+                top: -5%;
+            }
         }
     }
 
