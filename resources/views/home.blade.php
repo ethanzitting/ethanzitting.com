@@ -63,7 +63,7 @@
                         'link' => 'https://opensgf.org',
                     ],
                     'description' => 'Guiding a team of devs, planning and
-                    executing new development, setting up infrastructure',
+                    executing new development, setting up infrastructure.',
                     'toolIconSources' => [
                         'icons.logos.next',
                         'icons.logos.react',
