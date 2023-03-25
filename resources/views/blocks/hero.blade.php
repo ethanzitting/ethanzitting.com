@@ -1,11 +1,9 @@
 <section class="hero">
     <figure>
-        <div class="img-wrapper">
-            <img
-                src="{{ Vite::asset($imgSrc) }}"
-                alt="{{ $imgAlt }}"
-            >
-        </div>
+        <img
+            src="{{ Vite::asset($imgSrc) }}"
+            alt="{{ $imgAlt }}"
+        >
         <figcaption>{{ $imageCaption }}</figcaption>
     </figure>
     <h1 class="glossy-text">{{ $title }}</h1>
